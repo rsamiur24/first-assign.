@@ -38,7 +38,7 @@
      /* margin: 0 auto; */
      margin-top:90px;
      width: 1140px;
-     height: 3000px;
+     height: 2850px;
      background-color:#EFEFF1;
      margin-left: 110px;
      padding: 90px;
@@ -308,7 +308,7 @@
     display: flex;
     flex-direction: row;
 }
-.feedback button{
+.feed button{
     height: 57px;
     width: 548px;
     background-color: #FFFFFF;
@@ -321,4 +321,20 @@
     color: black;
     font-size: 20px;
     font-weight: 600;
+}
+/* footer start */
+.footer{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    width: 1400px;
+    margin-top: 90px;
+}
+.copyright{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: 20px;
+    
 }
