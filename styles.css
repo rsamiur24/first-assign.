@@ -1,85 +1,165 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-
 /* bg styles */
 .container{
-background-image:url(B10A1-Challenge-Begins-main/assets/Hero-bg.png) ;
-/* position: absolute; */
-width: 1440px;
-height: 652px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-margin: 0auto;
-text-align: center;
-margin: 0 auto;
-}
-.container h1{
-    font-weight: 800;
-    font-size: 48px;
-    color:rgb(13, 19,33) ;
-}
-.container p{
-    font-weight: 400;
-    font-size: 16px;
-    color: rgb(13,19,33);
-}
-.btn{
-    height: 40px;
-    width: 200px;
-    color: rgb(202, 211, 218);
-    background-color: black;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-/* why web dev start */
-
-.why-dev{
- /* margin: 0 auto; */
- margin-top:90px;
- width: 1140px;
- height: 1400px;
- background-color: rgb(235, 232, 229);
- margin-left: 110px;
- padding: 90px;
-}
-.dev-container{
-background-color: aliceblue;
-width:1000px ;
-height:400px ;
-margin:0 auto;
-
-}
-.defination{
-    align-items: center;
+    background-image:url(B10A1-Challenge-Begins-main/assets/Hero-bg.png) ;
+    /* position: absolute; */
+    width: 1440px;
+    height: 652px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0auto;
     text-align: center;
-}
-.defination p{
-    font-size: 16px;
-    font-weight: 400;
-    color: rgb(83, 85, 89);
-}
-.defination h1{
-    font-size: 32px;
-    font-weight: 800;
-}
-.defi-all{
- justify-content: space-between;
- display: flex;
- height:200px ;
- margin-left: 48px;
-}
-.btn-more{
-    margin-left:50px ;
-}
-.sub-defi h4{
-    font-size: 24px;
-    font-weight: 700;
-}
-.sub-defi p{
-    font-size: 16px;
-    font-weight: 400;
-}
+    margin: 0 auto;
+    }
+    .container h1{
+        font-weight: 800;
+        font-size: 48px;
+        color:rgb(13, 19,33) ;
+    }
+    .container p{
+        font-weight: 400;
+        font-size: 16px;
+        color: rgb(13,19,33);
+    }
+    .btn{
+        height: 40px;
+        width: 200px;
+        color: rgb(202, 211, 218);
+        background-color: black;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    /* why web dev start */
+    
+    .why-dev{
+     /* margin: 0 auto; */
+     margin-top:90px;
+     width: 1140px;
+     height: 1400px;
+     background-color: rgb(235, 232, 229);
+     margin-left: 110px;
+     padding: 90px;
+    }
+    .dev-container{
+    background-color: aliceblue;
+    width:1000px ;
+    height:400px ;
+    margin:0 auto;
+    
+    }
+    .defination{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .defination p{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(83, 85, 89);
+    }
+    .defination h1{
+        font-size: 32px;
+        font-weight: 800;
+    }
+    .defi-all{
+     justify-content: space-between;
+     display: flex;
+     height:200px ;
+     margin-left: 48px;
+    }
+    .btn-more{
+        margin-left:50px ;
+    }
+    .sub-defi h4{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .sub-defi p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    /* modern web style */
+    .modern-web{
+        display: flex;
+        flex-direction: row;
+        width:1000px ;
+        height: 400px;
+    }
+    .modern-img{
+        border: 2px solid red;
+    }
+    .start-modern{
+        background-color: aliceblue;
+        margin-top: 90px;
+    }
+    .modern-web img{
+        height: 240px;
+        width: 240px;
+        margin-top: 90px;
+        margin-left: 20px;
+    }
+    .modernweb-cont{
+        margin-top: 45px;
+        margin-left:50px;
+    }
+    .modernweb-cont h2{
+     font-size: 24px;
+     font-weight: 700;
+    }
+    .modernweb-cont p{
+        font-size: 16px;
+        font-weight: 400;
+        opacity: 0.7;
+    }
+    .mdn-btn{
+        margin-top: 100px;
+    }
+    .mdn-btn button{
+        height: 35px;
+        width: 100px;
+    }
+    
+    /* third section start */
+    .third-section{
+        height: 400px;
+        width: 1000px;
+        background-color: aliceblue;
+        margin-top: 90px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    .third-content{
+        height: 300px;
+        width: 50%;
+        margin:48px 48px 48px 48px;
+    }
+    .third-content p{
+        font-size: 24px;
+        font-weight: 700;
+        color: rgb(13, 19,33,0.7);
+    }
+    .third-content h5{
+        font-size: 16px;
+        font-weight: 400;
+        opacity: 0.7;
+    }
+    .third-btn {
+    height: 200px;
+    width: 100px;
+    margin-top: 110px;
+    margin-left: 10px;
+    }
+    .third-btn button{
+        height: 40px;
+        width: 100px;
+    }
+    .third-img{
+    margin-top: 60px;
+    margin-right: 60px;
+    }
