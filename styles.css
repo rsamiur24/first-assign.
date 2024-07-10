@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* bg styles */
+.container{
+background-image:url(B10A1-Challenge-Begins-main/assets/Hero-bg.png) ;
+/* position: absolute; */
+width: 1440px;
+height: 652px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0auto;
+text-align: center;
+margin: 0 auto;
+}
+.container h1{
+    font-weight: 800;
+    font-size: 48px;
+    color:rgb(13, 19,33) ;
+}
+.container p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(13,19,33);
+}
+.btn{
+    height: 40px;
+    width: 200px;
+    color: rgb(202, 211, 218);
+    background-color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* why web dev start */
+
+.why-dev{
+ margin: 0 auto;
+ border: 2px solid red;
+ margin-top:90px;
+ width: 1140px;
+ height: 1400px;
+ background-color: rgb(235, 232, 229);
+}
