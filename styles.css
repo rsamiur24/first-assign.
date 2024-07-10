@@ -36,10 +36,50 @@ margin: 0 auto;
 /* why web dev start */
 
 .why-dev{
- margin: 0 auto;
- border: 2px solid red;
+ /* margin: 0 auto; */
  margin-top:90px;
  width: 1140px;
  height: 1400px;
  background-color: rgb(235, 232, 229);
+ margin-left: 110px;
+ padding: 90px;
+}
+.dev-container{
+background-color: aliceblue;
+width:1000px ;
+height:400px ;
+margin:0 auto;
+
+}
+.defination{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.defination p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(83, 85, 89);
+}
+.defination h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.defi-all{
+ justify-content: space-between;
+ display: flex;
+ height:200px ;
+ margin-left: 48px;
+}
+.btn-more{
+    margin-left:50px ;
+}
+.sub-defi h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+.sub-defi p{
+    font-size: 16px;
+    font-weight: 400;
 }
